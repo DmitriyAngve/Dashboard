@@ -18,3 +18,13 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cors());
 
 /* MONGOOSE SETUP */
+const PORT = process.env.PORT || 9000;
+mongoose
+  .connect(process.env.MONGO_URL, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  })
+  .then(() => {
+    app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
+  })
+  .catch((error) => console.log(`${error} did not connect`));
