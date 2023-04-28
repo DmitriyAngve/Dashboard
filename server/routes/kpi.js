@@ -3,13 +3,13 @@ import KPI from "../models/KPI.js";
 
 const router = express.Router();
 
-router.get("/kpi", async (req, res) => {
+router.get("/kpis", async (req, res) => {
   try {
     const kpis = await KPI.find();
     // grap kpis data from my database! For this I use "mongoose" - object document mapping (odm), is equvialent for noSQL DB
     res.status(200).json(kpis);
     // we're sending our kpis object that we've grabbed from my database and we're it to the frontend
-  } catch {
+  } catch (error) {
     res.status(404).json({ message: error.message });
     // if we haven't status of an error I can just sya 404
   }
