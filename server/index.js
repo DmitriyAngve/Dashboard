@@ -3,9 +3,9 @@ import bodyParser from "body-parser";
 import mongoose from "mongoose";
 import cors from "cors";
 import dotenv from "dotenv";
-
 import helmet from "helmet";
 import morgan from "morgan";
+import kpiRoutes from "./routes/kpi.js"; // in node.js we need to specify the ".js"
 
 /* CONFIGURATIONS */
 dotenv.config();
@@ -17,6 +17,9 @@ app.use(morgan("common"));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cors());
+
+/* ROUTES */
+app.use("/kpi", kpiRoutes); // enter points for specific routes
 
 /* MONGOOSE SETUP */
 const PORT = process.env.PORT || 9000; // backup for port
