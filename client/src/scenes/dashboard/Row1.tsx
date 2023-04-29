@@ -12,7 +12,6 @@ import {
 import { useMemo } from "react";
 
 type Props = {};
-
 const Row1 = (props: Props) => {
   const { data } = useGetKpisQuery();
   // everything I need to make an API call
