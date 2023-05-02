@@ -4,10 +4,9 @@ import { GetKpisResponse } from "./types";
 export const api = createApi({
   baseQuery: fetchBaseQuery({ baseUrl: import.meta.env.VITE_BASE_URL }),
   reducerPath: "main",
-  tagTypes: ["Kpis"],
+  tagTypes: ["Kpis", "Products", "Transactions"],
   endpoints: (build) => ({
     getKpis: build.query<Array<GetKpisResponse>, void>({
-      // void, void - if we need arg for now but we will add those types later
       query: () => "kpi/kpis/",
       providesTags: ["Kpis"],
     }),

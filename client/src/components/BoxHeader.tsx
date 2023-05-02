@@ -1,13 +1,12 @@
+import { Box, Typography, useTheme } from "@mui/material";
 import React from "react";
 import FlexBetween from "./FlexBetween";
-import { Box, useTheme, Typography } from "@mui/material";
 
 type Props = {
-  icon?: React.ReactNode;
-  // this is going to be a naterial UI icon and that is represened by react.reactNode typing ("?" - is possible)
   title: string;
-  subtitle?: string;
   sideText: string;
+  subtitle?: string;
+  icon?: React.ReactNode;
 };
 
 const BoxHeader = ({ icon, title, subtitle, sideText }: Props) => {
