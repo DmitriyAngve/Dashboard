@@ -3,7 +3,6 @@ export interface ExpensesByCategory {
   supplies: number;
   services: number;
 }
-
 export interface Month {
   id: string;
   month: string;
