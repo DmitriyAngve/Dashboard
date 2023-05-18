@@ -1,7 +1,7 @@
 # Dashboard app
 About App:
-MERN Finance Dashboard App that has Machine Learning Predictions. The frontend will consist of Vite for starter application, Redux Toolkit for state management, Material UI for component library, and Recharts for Charts. For routing I use React Router
-For the backend I will be using Node Js as our runtime, Express Js as backend framework, and MongoDB for database. 
+MERN Finance Dashboard App that has Machine Learning Predictions. The frontend consist of Vite for starter application, Redux Toolkit for state management, Material UI for component library, and Recharts for Charts. For routing I use React Router.
+For the backend I use  Node Js as runtime, Express Js as backend framework, and MongoDB for database. 
 
 For machine learning i used "regression-js" library for regression analysis predictions. It supports linear regression and other types of regression models.
 
