@@ -5,6 +5,6 @@ For the backend I will be using Node Js as our runtime, Express Js as backend fr
 
 For machine learning i used "regression-js" library for regression analysis predictions. It supports linear regression and other types of regression models.
 
-![Screenshot]https://github.com/DmitriyAngve/Dashboard/blob/master/Dashboard1-1.png
+![Screenshot](https://github.com/DmitriyAngve/Dashboard/blob/master/Dashboard1-1.png)
 
 <h3 align="center">Thanks for reading this entire post.</h3>
