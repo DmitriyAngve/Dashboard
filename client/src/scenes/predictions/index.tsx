@@ -40,7 +40,7 @@ const Predictions = (props: Props) => {
         "Actual Revenue": revenue,
         "Regression Line": regressionLine.points[i][1],
         "Predicted Revenue": regressionLine.predict(i + 12)[1],
-      };
+      }; // это следующий год
     });
   }, [kpiData]);
 
