@@ -1,12 +1,47 @@
-# Dashboard app
-About App:
-MERN Finance Dashboard App that has Machine Learning Predictions. The frontend consist of Vite for starter application, Redux Toolkit for state management, Material UI for component library, and Recharts for Charts. For routing I use React Router.
-For the backend I use  Node Js as runtime, Express Js as backend framework, and MongoDB for database. 
+# MERN Finance Dashboard with Machine Learning Predictions
 
-For machine learning i used "regression-js" library for regression analysis predictions. It supports linear regression and other types of regression models.
+This is a comprehensive finance dashboard application built using the MERN stack (MongoDB, Express, React, Node.js), with the added capability of Machine Learning predictions.
+
+## Technologies Used
+
+### Frontend
+- **Vite**: A fast build tool for creating your frontend quickly.
+- **Redux Toolkit**: Efficient state management for sharing data across your app.
+- **Material UI**: A component library for ready-to-use UI components.
+- **Recharts**: A charting library for interactive and customizable charts.
+- **React Router**: Enables client-side routing for smooth navigation.
+
+### Backend
+- **Node.js**: Runtime environment for server-side JavaScript.
+- **Express.js**: A backend framework for robust APIs and server applications.
+- **MongoDB**: A NoSQL database for efficient data storage and management.
+
+### Machine Learning
+- **Regression-js**: A machine learning library for regression analysis, including linear regression and more. Enhances your app's predictive capabilities for financial analysis.
 
 <img src="https://github.com/DmitriyAngve/Dashboard/blob/master/Dashboard-1.png" width="250"><img src="https://github.com/DmitriyAngve/Dashboard/blob/master/Dashboard-2.png" width="250"><img src="https://github.com/DmitriyAngve/Dashboard/blob/master/Dashboard-3.png" width="250"><img src="https://github.com/DmitriyAngve/Dashboard/blob/master/Dashboard-4.png" width="250">
 
+## Installation and Usage
 
+To get started with this project, follow these steps:
+### 1. Clone this repository to your local machine
 
-<h3 align="center">Thanks for reading this entire post.</h3>
+```bash
+git clone https://github.com/DmitriyAngve/Dashboard
+```
+#### Navigate to the client directory
+```bash
+cd client
+```
+#### Install dependencies for the server side
+```bash
+npm install
+```
+#### Return to the server directory
+```bash
+cd ../server
+```
+#### Install dependencies for the server side
+```bash
+npm install
+```
