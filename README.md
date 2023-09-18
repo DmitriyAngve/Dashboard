@@ -24,24 +24,25 @@ This is a comprehensive finance dashboard application built using the MERN stack
 ## Installation and Usage
 
 To get started with this project, follow these steps:
+
 ### 1. Clone this repository to your local machine
 
 ```bash
 git clone https://github.com/DmitriyAngve/Dashboard
 ```
-#### Navigate to the client directory
+#### 2. Navigate to the client directory
 ```bash
 cd client
 ```
-#### Install dependencies for the server side
+#### 3. Install dependencies for the server side
 ```bash
 npm install
 ```
-#### Return to the server directory
+#### 4. Return to the server directory
 ```bash
 cd ../server
 ```
-#### Install dependencies for the server side
+#### 5. Install dependencies for the server side
 ```bash
 npm install
 ```
