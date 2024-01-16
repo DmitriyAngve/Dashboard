@@ -1,6 +1,6 @@
 # MERN Finance Dashboard with Machine Learning Predictions
 
-This is a comprehensive finance dashboard application built using the MERN stack (MongoDB, Express, React, Node.js), with the added capability of Machine Learning predictions.
+This is a comprehensive financial dashboard application, with additional machine learning predictive capabilities based on large volumes of data.
 
 ## Technologies Used
 
